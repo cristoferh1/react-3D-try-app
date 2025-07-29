@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/react-3D-try-app/",
+  base: "https://cristoferh1.github.io/react-3D-try-app/",
 });
