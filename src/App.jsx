@@ -2,6 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import Experience from "./components/Experience";
 import React, { useState } from "react";
 import { Card } from "./components/Card";
+import ScrollMouse from "./components/ScrollMouse";
 
 function App() {
   const [currentHouseFace, setCurrentHouseFace] = useState(null);
@@ -19,6 +20,7 @@ function App() {
         <Experience onFaceChange={handleFaceChange} />
       </Canvas>
       <Card currentFace={currentHouseFace} />
+      <ScrollMouse />
     </div>
   );
 }
